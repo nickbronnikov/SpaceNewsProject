@@ -31,27 +31,36 @@
 </head>
 <body>
 <div class="main">
-<div class="container body">
-    <header>
-        <nav>
+    <div class="container body">
+        <header>
+            <nav>
+                <div class="row">
+                    <div class="col-md-1 col-lg-1"></div>
+                    <a><div class="col-md-2 col-lg-2 nav-block-science"><div class="nav-div"><h2 class="text-center">Наука</h2></div></div></a>
+                    <a><div class="col-md-2 col-lg-2 nav-block-technical"><div class="nav-div"><h2 class="text-center">Технологии</h2></div></div></a>
+                    <a href="/"><div class="col-md-2 col-lg-2 nav-logo"></div></a>
+                    <a><div class="col-md-2 col-lg-2 nav-block-news"><div class="nav-div"><h2 class="text-center">Новости</h2></div></div></a>
+                    <a><div class="col-md-2 col-lg-2 nav-block-random"><div class="nav-div"><h2 class="text-center">Случайная</h2></div></div></a>
+                    <div class="col-md-1 col-lg-1"></div>
+                </div>
+            </nav>
+        </header>
+        <main class="content">
             <div class="row">
                 <div class="col-md-1 col-lg-1"></div>
-                <a><div class="col-md-2 col-lg-2 nav-block-science"><div class="nav-div"><h2 class="text-center">Наука</h2></div></div></a>
-                <a><div class="col-md-2 col-lg-2 nav-block-technical"><div class="nav-div"><h2 class="text-center">Технологии</h2></div></div></a>
-                <a href="/"><div class="col-md-2 col-lg-2 nav-logo"></div></a>
-                <a><div class="col-md-2 col-lg-2 nav-block-news"><div class="nav-div"><h2 class="text-center">Новости</h2></div></div></a>
-                <a><div class="col-md-2 col-lg-2 nav-block-random"><div class="nav-div"><h2 class="text-center">Случайная</h2></div></div></a>
-                <div class="col-md-1 col-lg-1"></div>
+                <div class="col-md-8 col-lg-8 main-news" style="background: url(img/aimg/gif1.gif) no-repeat;">
+                    <div class="newsPadding">
+
+                        <span class="tag text-center">Технологии</span>
+
+                    </div>
+                </div>
             </div>
-        </nav>
-    </header>
-    <main>
+        </main>
+        <footer>
 
-    </main>
-    <footer>
-
-    </footer>
-</div>
+        </footer>
+    </div>
     <div>
 </body>
 </html>
