@@ -35,26 +35,67 @@
         <header>
             <nav>
                 <div class="row">
-                    <div class="col-md-1 col-lg-1"></div>
-                    <a><div class="col-md-2 col-lg-2 nav-block-science"><div class="nav-div"><h2 class="text-center">Наука</h2></div></div></a>
-                    <a><div class="col-md-2 col-lg-2 nav-block-technical"><div class="nav-div"><h2 class="text-center">Технологии</h2></div></div></a>
-                    <a href="/"><div class="col-md-2 col-lg-2 nav-logo"></div></a>
-                    <a><div class="col-md-2 col-lg-2 nav-block-news"><div class="nav-div"><h2 class="text-center">Новости</h2></div></div></a>
-                    <a><div class="col-md-2 col-lg-2 nav-block-random"><div class="nav-div"><h2 class="text-center">Случайная</h2></div></div></a>
-                    <div class="col-md-1 col-lg-1"></div>
+                    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+                    <a>
+                        <div class="col-xs-2 col-md-2 col-lg-2 nav-block-science">
+                            <div class="nav-div">
+                                <span class="text-center">Наука</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a>
+                        <div class="col-xs-2 col-md-2 col-lg-2 nav-block-technical">
+                            <div class="nav-div">
+                                <span class="text-center">Технологии</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/"><div class="col-xs-2 col-md-2 col-lg-2 nav-logo"></div></a>
+                    <a>
+                        <div class="col-xs-2 col-md-2 col-lg-2 nav-block-news">
+                            <div class="nav-div">
+                                <span class="text-center">Новости</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a>
+                        <div class="col-xs-2 col-md-2 col-lg-2 nav-block-random">
+                            <div class="nav-div">
+                                <span class="text-center">Случайная</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-xs-1 col-md-1 col-lg-1"></div>
                 </div>
             </nav>
         </header>
         <main class="content">
             <div class="row">
                 <div class="col-md-1 col-lg-1"></div>
-                <div class="col-md-8 col-lg-8 main-news" style="background: url(img/aimg/gif1.gif) no-repeat;">
-                    <div class="newsPadding">
-
-                        <span class="tag text-center">Технологии</span>
-
-                    </div>
+                    <a href="#">
+                        <div class="col-md-7 col-lg-7 main-news" style="background: url(img/aimg/gif1.gif) no-repeat;">
+                            <div class="newsPadding">
+                                <span class="tag-w text-center">Технологии</span>
+                            </div>
+                            <div class="main-title">
+                                <h3 class="main-h3">Россия создаст лунный 3D-принтер</h3>
+                                <p>Ученые разработают 3D-принтер для печати каменных объектов на поверхности Луны.</p>
+                            </div>
+                        </div>
+                    </a>
+                <div class="col-md-3 col-lg-3">
+                    <a href="#">
+                        <div class="science-main main-news">
+                            <div class="newsPadding">
+                                <span class="tag-w text-center">Наука</span>
+                            </div>
+                            <div class="main-title">
+                                <h3 class="main-h3">Высоко сижу, далеко гляжу</h3>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <div class="col-md-1 col-lg-1"></div>
             </div>
         </main>
         <footer>
